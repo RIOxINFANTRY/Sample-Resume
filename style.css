@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather";
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}   
+
+header{
+    height: 125%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+.content{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+header .content h1{
+    font-size: 90px;
+    font-family: "Sacramento";
+    padding-bottom: 20px;
+}
+
+header .content h3{
+    font-size: 38px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-left: 70px;
+}
+
+header .content h3 span{
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+main{
+    height: 400%;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.intro{
+    height: 95%;
+    width: 100%;
+}
+
+main .intro .profile{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: orange;
+    margin: auto;
+    margin-bottom: 80px;
+    background-image: url(profile.jpg);
+    background-size: cover;
+    background-position: -5px;
+}
+
+main .intro h1{
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: rgb(255, 145, 0);
+}
+
+main .intro p{
+    margin: auto;
+    font-size: 20px;
+    width: 30%;
+    line-height: 30px;
+    padding-bottom: 130px;
+}
+
+main .intro hr{
+    width: 10%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+main .skills{
+    position: absolute;
+    bottom: -305%;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main .skills h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 80px;
+}
+
+main .skills img{
+    height: 150px;
+    width: 150px;
+    padding-right: 40px;
+}
+
+main .skills .first{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+main .skills .first .text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 410px;
+}
+
+main .skills .first .text h2{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: orange;
+    font-size: 20px;
+}
+
+main .skills .first .text p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+main .skills .second{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+main .skills .second .text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 430px;
+}
+
+main .skills .second .text h2{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: orange;
+    font-size: 20px;
+}
+
+main .skills .second .text p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+main .skills .second .text p span{
+    font-style: italic;
+}
+
+main .skills .third{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 130px;
+}
+
+main .skills .third img{
+    height: 250px;
+    width: 250px;
+    padding-right: 70px;
+}
+
+main .skills .third .text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 288px;
+}
+
+main .skills .third .text h2{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: orange;
+    font-size: 20px;
+}
+
+main .skills .third .text p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+main .skills .third .text p span{
+    font-style: italic;
+}
+
+main .skills hr{
+    width: 10%;
+    margin: auto;
+    margin-bottom: 130px;
+}
+
+footer{
+    padding-top: 40px;
+    text-align: center;
+    height: 20.5%;
+    position: relative;
+    bottom: 27%;
+    background-color: rgb(100, 100, 100, .1);
+    border-radius: 200px 200px 0px 0px;
+}
+
+footer a{
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.3s;
+    color: grey;
+}
+
+footer a:hover{
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(128, 128, 128, .5);
+}
+
+footer h4{
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+main .contact{
+    width: 100%;
+    height: 490px;
+    position: absolute;
+    bottom: -426%;
+}
+
+main .contact h1{
+    font-size: 40px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: rgb(255, 128, 0);
+}
+
+main .contact h3{
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: rgb(255, 165, 0, .5);
+}
+
+main .contact p{
+    margin: auto;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    width: 500px;
+    line-height: 35px;
+}
+
+main .contact button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: orange;
+    border-radius: 40px;
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    cursor: pointer;
+    transform: 0.3s;
+}
+
+main .contact button:hover{
+    background-color: cornflowerblue;
+}
